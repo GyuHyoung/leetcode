@@ -71,4 +71,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/GyuHyoung/leetcode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/GyuHyoung/leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
