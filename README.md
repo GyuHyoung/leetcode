@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/GyuHyoung/leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/GyuHyoung/leetcode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -90,8 +91,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 ## Binary Tree
 |  |
 | ------- |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
+## Matrix
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 <!---LeetCode Topics End-->
