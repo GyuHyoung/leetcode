@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/GyuHyoung/leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/GyuHyoung/leetcode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 ## Binary Tree
@@ -99,5 +101,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
+## Depth-First Search
+|  |
+| ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 <!---LeetCode Topics End-->
