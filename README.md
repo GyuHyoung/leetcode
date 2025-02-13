@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Sliding Window
 |  |
@@ -88,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -100,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Matrix
 |  |
@@ -125,4 +129,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
