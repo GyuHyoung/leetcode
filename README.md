@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/GyuHyoung/leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/GyuHyoung/leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/GyuHyoung/leetcode/tree/master/0049-group-anagrams) |
+| [0090-subsets-ii](https://github.com/GyuHyoung/leetcode/tree/master/0090-subsets-ii) |
 | [0130-surrounded-regions](https://github.com/GyuHyoung/leetcode/tree/master/0130-surrounded-regions) |
 | [0217-contains-duplicate](https://github.com/GyuHyoung/leetcode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/GyuHyoung/leetcode/tree/master/0090-subsets-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 ## Graph
 |  |
@@ -161,4 +163,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/GyuHyoung/leetcode/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
