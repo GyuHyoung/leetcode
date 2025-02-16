@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Sorting
 |  |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/GyuHyoung/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/GyuHyoung/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Two Pointers
 |  |
@@ -46,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/GyuHyoung/leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/GyuHyoung/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Divide and Conquer
@@ -57,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/GyuHyoung/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/GyuHyoung/leetcode/tree/master/1127-last-stone-weight) |
@@ -68,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 ## Quickselect
 |  |
 | ------- |
@@ -152,4 +157,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/GyuHyoung/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Greedy
+|  |
+| ------- |
+| [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 <!---LeetCode Topics End-->
