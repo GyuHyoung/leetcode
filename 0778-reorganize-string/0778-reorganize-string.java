@@ -26,16 +26,17 @@ class Solution {
         String result = "";
 
         boolean b = false;
+        StringBuilder sb = new StringBuilder();
 
         while(!pq.isEmpty()) {
             if(b) return "";
             Entry e = pq.poll();
-            result += e.ch;
+            sb.append(e.ch);
             Entry e2 = null;
             
             if(!pq.isEmpty()) {
                 e2 = pq.poll();
-                result += e2.ch;
+                sb.append(e2.ch);
             } else {
                 b = true;
             }
@@ -49,6 +50,6 @@ class Solution {
             }
         }
 
-        return result;
+        return sb.toString();
     }
 }
