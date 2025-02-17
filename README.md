@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [1014-k-closest-points-to-origin](https://github.com/GyuHyoung/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1028-interval-list-intersections](https://github.com/GyuHyoung/leetcode/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/GyuHyoung/leetcode/tree/master/1127-last-stone-weight) |
 ## Hash Table
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/GyuHyoung/leetcode/tree/master/0015-3sum) |
+| [1028-interval-list-intersections](https://github.com/GyuHyoung/leetcode/tree/master/1028-interval-list-intersections) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/GyuHyoung/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## String
 |  |
@@ -183,4 +185,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/GyuHyoung/leetcode/tree/master/0207-course-schedule) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/GyuHyoung/leetcode/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
