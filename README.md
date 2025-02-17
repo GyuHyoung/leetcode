@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1028-interval-list-intersections](https://github.com/GyuHyoung/leetcode/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/GyuHyoung/leetcode/tree/master/1127-last-stone-weight) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/GyuHyoung/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Hash Table
 |  |
 | ------- |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/GyuHyoung/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Binary Tree
 |  |
 | ------- |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/GyuHyoung/leetcode/tree/master/0130-surrounded-regions) |
 | [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/GyuHyoung/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Depth-First Search
 |  |
 | ------- |
