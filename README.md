@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/GyuHyoung/leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/GyuHyoung/leetcode/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/GyuHyoung/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/GyuHyoung/leetcode/tree/master/0040-combination-sum-ii) |
 | [0079-word-search](https://github.com/GyuHyoung/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/GyuHyoung/leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/GyuHyoung/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 ## Graph
 |  |
@@ -192,4 +194,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/GyuHyoung/leetcode/tree/master/1028-interval-list-intersections) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/GyuHyoung/leetcode/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
