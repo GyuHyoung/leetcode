@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/GyuHyoung/leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Sorting
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/GyuHyoung/leetcode/tree/master/0015-3sum) |
+| [0567-permutation-in-string](https://github.com/GyuHyoung/leetcode/tree/master/0567-permutation-in-string) |
 | [1028-interval-list-intersections](https://github.com/GyuHyoung/leetcode/tree/master/1028-interval-list-intersections) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/GyuHyoung/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## String
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/GyuHyoung/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/GyuHyoung/leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/GyuHyoung/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -102,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/GyuHyoung/leetcode/tree/master/0567-permutation-in-string) |
 ## Linked List
 |  |
 | ------- |
