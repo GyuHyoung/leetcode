@@ -1,23 +1,30 @@
+// a.  a.  b.  a.  b.  b.  a
+// p1                  p2 
 class Solution {
     public int characterReplacement(String s, int k) {
-        int[] freq = new int[26];
-        char[] charArr = s.toCharArray();
-
+        if(s.length() == 1) return 1;
         int p1 = 0;
-        int p2 = 0;
-        int maxFreq = 0;
+        int p2 = 1;
+        
+        char[] charArr = s.toCharArray();
+        Map<Character, Integer> map = new HashMap<>();
+        map.put(charArr[p1], 1);
+        int maxCnt = 1;
         int maxLen = 0;
-        while(p2 < charArr.length) {
-            freq[charArr[p2] - 'A']++;
-            maxFreq = Math.max(maxFreq, freq[charArr[p2] - 'A']);
-            while(p2 - p1 + 1 - maxFreq > k) {
-                freq[charArr[p1] - 'A']--;
-                p1++;
 
+        while(p2 < s.length()) {
+            char ch = charArr[p2];  
+            int cnt = map.getOrDefault(ch, 0) + 1; 
+                        map.put(ch, cnt);  
+            maxCnt = Math.max(maxCnt, cnt);
+
+            while ((p2 - p1 + 1) - maxCnt > k) {
+                map.put(charArr[p1], map.get(charArr[p1]) - 1);
+                p1++;
             }
+            
             maxLen = Math.max(maxLen, p2 - p1 + 1);
             p2++;
-            
         }
 
         return maxLen;
