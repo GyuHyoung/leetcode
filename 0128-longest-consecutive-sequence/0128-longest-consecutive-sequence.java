@@ -7,7 +7,7 @@ class Solution {
         }
         int maxSeq = 0;
         for(int num : set) {
-            if(set.contains(num - 1)) {
+            if(!set.contains(num - 1)) {
                 int nextNum = num + 1;
                 int seq = 1;
                 while(set.contains(nextNum)) {
@@ -18,6 +18,6 @@ class Solution {
             }
         }
 
-        return maxSeq+1;
+        return maxSeq;
     }
 }
