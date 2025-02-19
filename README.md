@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/GyuHyoung/leetcode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/GyuHyoung/leetcode/tree/master/0207-course-schedule) |
 | [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/GyuHyoung/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/GyuHyoung/leetcode/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/GyuHyoung/leetcode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/GyuHyoung/leetcode/tree/master/0207-course-schedule) |
 | [0417-pacific-atlantic-water-flow](https://github.com/GyuHyoung/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/GyuHyoung/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/GyuHyoung/leetcode/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 ## Union Find
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/GyuHyoung/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/GyuHyoung/leetcode/tree/master/0130-surrounded-regions) |
+| [0684-redundant-connection](https://github.com/GyuHyoung/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/GyuHyoung/leetcode/tree/master/0695-max-area-of-island) |
 ## Backtracking
 |  |
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/GyuHyoung/leetcode/tree/master/0207-course-schedule) |
+| [0684-redundant-connection](https://github.com/GyuHyoung/leetcode/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 ## Binary Search Tree
 |  |
