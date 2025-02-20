@@ -1,49 +1,40 @@
-// 0 -> null
-// 1 -> 0
-// 2 -> 1, 0
-
-// 0, 1, 2
-// 1, 0, 0
-
+// 0 -> 10
+// 3 -> 18
+// 5
 class Solution {
-    public boolean dfs(Map<Integer, List<Integer>> map, int pre, Set<Integer> visited) {
-        boolean ret = true;
-        if(map.get(pre).size() == 0) {
-            return true;
-        }
+    public boolean dfs(Map<Integer, List<Integer>> map, int course, Set<Integer> visiting) {
+        if(map.get(course).size() == 0) return true;
+        if(visiting.contains(course)) return false;
 
-        if(visited.contains(pre)) return false; 
-        
-        visited.add(pre);
-        List<Integer> list = map.get(pre);
-        for(int prer: list) {
-            if(!dfs(map, prer, visited)) return false;
+        visiting.add(course);
+        List<Integer> depList = map.get(course);
+        for(int dep: depList) {
+            if(!dfs(map, dep, visiting)) {
+                return false;
+            }
         }
-        
-        visited.remove(pre);
-        map.put(pre, new ArrayList<>());
+        map.put(course, new ArrayList<>());
+
+        visiting.remove(course);
         return true;
 
     }
-
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
-        
+        Map<Integer,List<Integer>> map = new HashMap<>();
+        for(int n = 0; n < numCourses; n++) {
+            map.put(n, new ArrayList<>());
+        }
+        for(int[] req : prerequisites) {
+            map.get(req[0]).add(req[1]);
+        }
+
+        boolean canFinish = true;
         for(int i = 0; i < numCourses; i++) {
-            map.put(i, new ArrayList<>());
+            if(map.get(i).size() > 0) {
+                if(!dfs(map, i, new HashSet<>())) 
+                    return false;
+            }
         }
-
-        for(int[] courses: prerequisites) {
-            List<Integer> dep = map.get(courses[0]);
-            dep.add(courses[1]);
-            map.put(courses[0], dep);
-        }
-        Set<Integer> visited = new HashSet<>();
-
-        for(int i = 0; i < numCourses; i++) {
-            if(!dfs(map, i, visited)) return false;
-        }
-
         return true;
     }
 }
