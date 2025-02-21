@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/GyuHyoung/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/GyuHyoung/leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/GyuHyoung/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/GyuHyoung/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/GyuHyoung/leetcode/tree/master/0621-task-scheduler) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/GyuHyoung/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/GyuHyoung/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/GyuHyoung/leetcode/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/GyuHyoung/leetcode/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/GyuHyoung/leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Sliding Window
@@ -124,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/GyuHyoung/leetcode/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/GyuHyoung/leetcode/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
