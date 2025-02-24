@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/GyuHyoung/leetcode/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/GyuHyoung/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1706-min-cost-to-connect-all-points](https://github.com/GyuHyoung/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Hash Table
 |  |
 | ------- |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/GyuHyoung/leetcode/tree/master/0130-surrounded-regions) |
 | [0684-redundant-connection](https://github.com/GyuHyoung/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/GyuHyoung/leetcode/tree/master/0695-max-area-of-island) |
+| [1706-min-cost-to-connect-all-points](https://github.com/GyuHyoung/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Backtracking
 |  |
 | ------- |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/GyuHyoung/leetcode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/GyuHyoung/leetcode/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [1706-min-cost-to-connect-all-points](https://github.com/GyuHyoung/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -250,4 +253,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/GyuHyoung/leetcode/tree/master/0744-network-delay-time) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/GyuHyoung/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
