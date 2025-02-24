@@ -1,37 +1,30 @@
 class FooBar {
     private int n;
-    private boolean printed;
-
+    private Semaphore fooSemaphore;
+    private Semaphore barSemaphore;
     public FooBar(int n) {
         this.n = n;
-        printed = false;
+        fooSemaphore = new Semaphore(1);
+        barSemaphore = new Semaphore(0);
     }
 
-    public synchronized void foo(Runnable printFoo) throws InterruptedException {
+    public void foo(Runnable printFoo) throws InterruptedException {
         
         for (int i = 0; i < n; i++) {
-            while(printed == true) {
-                wait();
-            }
-
+            fooSemaphore.acquire();
         	// printFoo.run() outputs "foo". Do not change or remove this line.
         	printFoo.run();
-            printed = true;
-            notifyAll();
+            barSemaphore.release();
         }
     }
 
-    public synchronized void bar(Runnable printBar) throws InterruptedException {
+    public void bar(Runnable printBar) throws InterruptedException {
         
         for (int i = 0; i < n; i++) {
-            while(printed == false) {
-                wait();
-            }
-            
+            barSemaphore.acquire();
             // printBar.run() outputs "bar". Do not change or remove this line.
         	printBar.run();
-            printed = false;
-            notifyAll();
+            fooSemaphore.release();
         }
     }
 }
