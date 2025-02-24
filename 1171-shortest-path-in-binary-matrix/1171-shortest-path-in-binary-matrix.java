@@ -1,79 +1,45 @@
-// 0,1,0,0,0,0
-// 0,1,0,1,1,0
-// 0,1,1,0,1,0
-// 0,0,0,0,1,0
-// 1,1,1,1,1,0
-// 1,1,1,1,1,0
+// 0 0 0 
+// 1 1 0
+// 1 1 1
 
 class Solution {
     int n;
-    int m;
-    int[][] visited; 
-    public boolean isValid(int i, int j, int[][] grid) {
-        if(i < 0 || j < 0 || i == n || j == m || visited[i][j] == 1) return false;
-        if(grid[i][j] != 0) return false;
 
+    public boolean isValid(int[][] grid, int i, int j) {
+        if(i < 0 || j < 0 || i == n || j == n) {
+            return false;
+        }
+        if(grid[i][j] != 0) return false;
         return true;
     }
-
     public int shortestPathBinaryMatrix(int[][] grid) {
+        if(grid[0][0] == 1) return -1;
         n = grid.length;
-        m = grid[0].length;
-        if(grid[0][0] == 1 || grid[n-1][m-1] == 1) return -1;
-        visited = new int[n][m];
+        if(grid[n-1][n-1] == 1) return -1;
+        int path = 0;
+        int[] dirX = new int[] {0, 0, 1, -1, 1, -1, 1, -1};
+        int[] dirY = new int[] {1, -1, 0, 0, 1, -1, -1, 1};
         Queue<int[]> queue = new LinkedList<>();
-        
         queue.add(new int[]{0, 0});
-        visited[0][0] = 1;
-        int cnt = 0;
-
         while(!queue.isEmpty()) {
-            int num = queue.size();
-            for(int idx = 0; idx < num; idx++) {
-                int[] pos = queue.poll();
-                int i = pos[0];
-                int j = pos[1];
-                grid[i][j] = cnt+1;
-                if(i == n-1 && j == m-1) {return grid[i][j];}
-                
-                if(isValid(i+1, j+1, grid)) {
-                    queue.add(new int[]{i+1, j+1});
-                    visited[i+1][j+1] = 1;
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int[] currPos = queue.poll();
+                int x = currPos[0];
+                int y = currPos[1];
+                if(x == n - 1 && y == n - 1) return grid[x][y] + 1;
+                for(int dir = 0; dir < 8; dir++) {
+                    if(isValid(grid, x + dirX[dir], y + dirY[dir])) {
+                        queue.add(new int[]{x + dirX[dir], y + dirY[dir]});
+                        grid[x + dirX[dir]][y + dirY[dir]] = grid[x][y] + 1;
                     }
-                if(isValid(i, j+1, grid)){ 
-                    queue.add(new int[]{i, j+1});
-                    visited[i][j+1] = 1;
                 }
-                if(isValid(i+1, j, grid)) {
-                    queue.add(new int[]{i+1, j});
-                    visited[i+1][j] = 1;
-                }
-                if(isValid(i-1, j, grid)){ 
-                    queue.add(new int[]{i-1, j});
-                    visited[i-1][j] = 1;
-                }
-                if(isValid(i, j-1, grid)) {
-                    queue.add(new int[]{i, j-1});
-                    visited[i][j-1] = 1;
-                    }
-                if(isValid(i-1, j-1, grid)){ 
-                    queue.add(new int[]{i-1, j-1});
-                    visited[i-1][j-1] = 1;
-                }
-                if(isValid(i-1, j+1, grid)) {
-                    queue.add(new int[]{i-1, j+1});
-                    visited[i-1][j+1] = 1;
-                }
-                if(isValid(i+1, j-1, grid)) {
-                    queue.add(new int[]{i+1, j-1});
-                    visited[i+1][j-1] = 1;
-                }
+
             }
 
-            cnt++;
         }
 
         return -1;
-    }
 
+    }
 }
