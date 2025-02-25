@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/GyuHyoung/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/GyuHyoung/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/GyuHyoung/leetcode/tree/master/0133-clone-graph) |
+| [0146-lru-cache](https://github.com/GyuHyoung/leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/GyuHyoung/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/GyuHyoung/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/GyuHyoung/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/GyuHyoung/leetcode/tree/master/0146-lru-cache) |
 | [0355-design-twitter](https://github.com/GyuHyoung/leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/GyuHyoung/leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/GyuHyoung/leetcode/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/GyuHyoung/leetcode/tree/master/0355-design-twitter) |
 ## Recursion
@@ -272,4 +275,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1187-print-foobar-alternately](https://github.com/GyuHyoung/leetcode/tree/master/1187-print-foobar-alternately) |
 | [1203-print-in-order](https://github.com/GyuHyoung/leetcode/tree/master/1203-print-in-order) |
 | [1216-print-zero-even-odd](https://github.com/GyuHyoung/leetcode/tree/master/1216-print-zero-even-odd) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/GyuHyoung/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
