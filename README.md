@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/GyuHyoung/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/GyuHyoung/leetcode/tree/master/1023-time-based-key-value-store) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/GyuHyoung/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/GyuHyoung/leetcode/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/GyuHyoung/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Two Pointers
 |  |
 | ------- |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/GyuHyoung/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -155,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/GyuHyoung/leetcode/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/GyuHyoung/leetcode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/GyuHyoung/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Binary Tree
@@ -163,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/GyuHyoung/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GyuHyoung/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Matrix
 |  |
 | ------- |
@@ -185,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/GyuHyoung/leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/GyuHyoung/leetcode/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/GyuHyoung/leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/GyuHyoung/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Union Find
 |  |
 | ------- |
