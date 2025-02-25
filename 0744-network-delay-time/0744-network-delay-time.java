@@ -1,41 +1,41 @@
-class Entry {
-    int node;
-    int weight;
-
-    Entry(int node, int weight) {
-        this.node = node;
-        this.weight = weight;
-    }
-}
+// 1 -> [2, 1]. [3,4]
+// 2 -> [1. 2]. [3.7]
+//
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
         Set<Integer> set = new HashSet<>();
-        Map<Integer, List<Entry>> map = new HashMap<>();
-        for(int[] time : times) {
-            int source = time[0];
-            List<Entry> childList = map.getOrDefault(source, new ArrayList<>());
-            childList.add(new Entry(time[1], time[2]));
-            map.put(source, childList);
+        Map<Integer, List<int[]>> sourceToDest = new HashMap<>();
+        for(int[] time: times) {
+            List<int[]> dest = sourceToDest.getOrDefault(time[0], new ArrayList<>());
+            dest.add(new int[]{time[1], time[2]});  // node, time
+            sourceToDest.put(time[0], dest);
         }
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
-        pq.add(new int[]{0 ,k});
+        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+
+        queue.add(new int[]{k, 0});
+
         int time = 0;
-
-        while(!pq.isEmpty()) {
-            int[] node = pq.poll();
-            if(set.contains(node[1])) continue;
-            set.add(node[1]);
-            time = node[0];
-            List<Entry> list = map.get(node[1]);
-            if(list == null) continue;
-            for(Entry entry: list) {
-                pq.add(new int[]{node[0] + entry.weight, entry.node});
-            }
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int[] nodeInfo = queue.poll();
+                int node = nodeInfo[0];
+                if(set.contains(node)) continue;
+                
+                set.add(node);
+                time = nodeInfo[1];
+                
+                List<int[]> destList = sourceToDest.get(node);
+                if(destList == null) continue;
+                for(int[] dest: destList) {
+                    queue.add(new int[] {dest[0], dest[1] + nodeInfo[1]});
+                }
+            }        
         }
-        
-        if(set.size() == n) return time;
 
-        return -1;
+        if(set.size() != n) return -1;
+
+        return time;
     }
 }
