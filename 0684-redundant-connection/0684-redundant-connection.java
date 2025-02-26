@@ -28,24 +28,21 @@ class Solution {
 
         if(p1 == p2) return false;
 
-        if(rank[n1] < rank[n2]) {
-            parent[p1] = p2;
-            rank[p1] += rank[p2];
-        } else {
+        if(rank[p1] < rank[p2]) {
             parent[p2] = parent[p1];
             rank[p2] += rank[p1];
+        } else {
+            parent[p1] = parent[p2];
+            rank[p1] += rank[p2];
         }
         return true;
 
     }
 
     public int find(int n) {
-        int p = parent[n];
-        while(p != parent[p]) {
-            parent[p] = parent[parent[p]];
-            p = parent[p];
+        if(n != parent[n]) {
+            parent[n] = find(parent[n]);
         }
-
-        return p;
+        return parent[n];
     }
 }
