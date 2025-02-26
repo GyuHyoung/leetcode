@@ -1,33 +1,31 @@
 class TimeMap {
-    Map<String, List<List<String>>> map = new HashMap<>();
-    
+    Map<String, TreeMap<Integer, String>> timeMap;
+
     public TimeMap() {
+        timeMap = new HashMap<>();
+    }
+    
+    public void set(String key, String value, int timestamp) {    
+        TreeMap<Integer, String> valueMap = timeMap.getOrDefault(key, new TreeMap());
+        valueMap.put(timestamp, value);
+        timeMap.put(key, valueMap);
         
     }
     
-    public void set(String key, String value, int timestamp) {
-        List<List<String>> list = map.getOrDefault(key, new ArrayList<>());
-        list.add(List.of(String.valueOf(timestamp), value));
-        map.put(key, list);    
-    }
-    
     public String get(String key, int timestamp) {
-        List<List<String>> list = map.get(key);
-                if(list == null) return "";
-        int r = list.size() - 1;
-        int l = 0;
-        while(l <= r) {
-            int m = (l + r) / 2;
-            int prevTimeStamp = Integer.valueOf(list.get(m).get(0));
-            if(prevTimeStamp > timestamp) {
-                r = m - 1;
-            } else if(prevTimeStamp == timestamp) {
-                return list.get(m).get(1);
-            } else {
-                l = m + 1;
-            }
-        }
-        if(r == -1) return "";
-        return list.get(r).get(1);
+        if(!timeMap.containsKey(key)) return "";
+        TreeMap<Integer, String> valueMap = timeMap.get(key);
+        Map.Entry<Integer, String> entry = valueMap.floorEntry(timestamp);
+
+        if(entry == null) return "";
+
+        return entry.getValue();
     }
 }
+
+/**
+ * Your TimeMap object will be instantiated and called as such:
+ * TimeMap obj = new TimeMap();
+ * obj.set(key,value,timestamp);
+ * String param_2 = obj.get(key,timestamp);
+ */
