@@ -5,41 +5,47 @@ class Solution {
         int n = edges.length;
         parent = new int[n+1];
         rank = new int[n+1];
-        for(int i = 1; i < n+1; i++) {
+
+        for(int i = 1; i <= n; i++) {
             parent[i] = i;
             rank[i] = 1;
         }
 
-        for(int[] edge : edges) {
-            if(!union(edge[0], edge[1])) return edge;
-        }
+        for(int[] edge: edges) {
+            int node1 = edge[0];
+            int node2 = edge[1];
+            if(!union(node1, node2)) {
+                return edge;
+            }
+        } 
 
-        return edges[n - 1];
+        return new int[]{-1, -1};
     }
 
-    public int find(int node) {
-        if(node == parent[node]) return node;
-
-        parent[node] = find(parent[node]);
-
-        return parent[node];
-    }
-
-    public boolean union(int node1, int node2) {
-        int p1 = find(node1);
-        int p2 = find(node2);
+    public boolean union(int n1, int n2) {
+        int p1 = find(n1);
+        int p2 = find(n2);
 
         if(p1 == p2) return false;
 
-        if(rank[p1] > rank[p2]) {
-            parent[p2] = p1;
+        if(rank[n1] < rank[n2]) {
+            parent[p1] = p2;
             rank[p1] += rank[p2];
         } else {
-            parent[p1] = p2;
+            parent[p2] = parent[p1];
             rank[p2] += rank[p1];
         }
         return true;
 
+    }
 
+    public int find(int n) {
+        int p = parent[n];
+        while(p != parent[p]) {
+            parent[p] = parent[parent[p]];
+            p = parent[p];
+        }
+
+        return p;
     }
 }
