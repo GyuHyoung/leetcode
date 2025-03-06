@@ -7,7 +7,7 @@ class Solution {
         pq.add(new int[]{0, 0}); // distance, index;
 
         int result = 0;
-        while(!pq.isEmpty()){
+        while(set.size() < n){
             int[] curr = pq.poll();
             int currIdx = curr[1];
             int currDis = curr[0];
